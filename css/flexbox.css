@@ -1,0 +1,69 @@
+/* cabecalho */
+.cabecalhoPrincipal .container {
+  display: flex; /* ! */
+  justify-content: space-between; /* outros: space-around, center */
+}
+
+.cabecalhoPrincipal-nav {
+  display: flex;
+}
+
+/* cursos */
+.conteudoPrincipal .conteudoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+  width: 23%;
+}
+
+/* video */
+.videoSobre .container {
+  display: flex;
+}
+
+.videoSobre-video {
+  flex-grow: 1;
+}
+
+.videoSobre-sobre {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.videoSobre-sobre-list {
+  flex-grow: 1; /* ! */
+}
+
+/* footer */
+.rodapePrincipal-navMap-list {
+  display: flex;
+  flex-direction: column; /* outros: row (padrao)*/
+  height: 260px;
+  flex-wrap: wrap;
+}
+
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  justify-content: space-between; /* eixo principal (para flex-direction: column */
+}
+
+.rodapePrincipal-patrocinadores-list {
+  display: flex;
+  align-items: center;  /* eixo secundario (para flex-direction: column */
+  justify-content: space-around;
+  
+  width: 70%;
+  margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+  width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
