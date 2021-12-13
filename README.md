@@ -1,4 +1,4 @@
-# alurinha-plataforma-cursos
+# Alurinha Plataforma de Cursos
 
 Projeto desenvolvido durante o curso de CSS Flexbox da Alura
 
