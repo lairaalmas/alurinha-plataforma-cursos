@@ -12,18 +12,15 @@ body {
 	background-color: #FFF;
 	padding: 20px 0;
 }
-
 .cabecalhoPrincipal-titulo {
 	font-weight: bold;
 	font-size: 2em;
 	margin-bottom: 20px;
 }
-
 .cabecalhoPrincipal-titulo a {
 	text-decoration: none;
 	color: inherit;
 }
-
 .cabecalhoPrincipal-nav-link {
 	padding: 10px;
 	margin-bottom: 10px;
@@ -57,7 +54,6 @@ body {
 	box-shadow: 2px 2px 2px #CCC;
 	position: relative;
 }
-
 .conteudoPrincipal-cursos-link a {
 	text-decoration: none;
 	color: #000;
@@ -69,11 +65,9 @@ body {
 	top: 0;
 	left: 0;
 }
-
 .conteudoPrincipal-cursos-link:hover {
 	box-shadow: 4px 4px 4px #CCC;
 }
-
 .conteudoPrincipal-cursos-link a:before {
 	content: '';
 	display: block;
@@ -81,48 +75,40 @@ body {
 	height: 50px;
 	margin: 10px auto;
 }
-
 .conteudoPrincipal-cursos-link:nth-child(even) a:before {
-	background: url(../img/background1.svg) no-repeat;	
+	background: url("../img/background1.svg") no-repeat;	
 }
-
 .conteudoPrincipal-cursos-link:nth-child(odd) a:before {
-	background: url(../img/background2.svg) no-repeat;
+	background: url("../img/background2.svg") no-repeat;
 }
-
 
 .rodapePrincipal {
 	background-color: #324C64;
 	padding-top: 20px;
 }
-
 .rodapePrincipal .subtitulo {
 	color: #FFF;
 }
-
 .rodapePrincipal-navMap-link {
 	text-decoration: none;
 	color: #FFF;
 	margin-top: 10px;
 }
-
 .rodapePrincipal-navMap-link {
 	font-size: .9em;
 }
 
 .navmap-list-title {
-	font-weight: 700;
+	font-weight: 700; /* bold */
 	font-size: 1.3em;
 	margin: .9em 0;
 	padding-left: .3em;
 	padding-top: .2em;
 	padding-bottom: .2em;
 }
-
 .navmap-list-title + .rodapePrincipal-navMap-link {
 	margin-top: 0;
 }
-
 .navmap-list-title-bancoDeDados { color: #EC6E5A; border-left: 4px solid #EC6E5A; }
 .navmap-list-title-framework { color: #AD85BF; border-left: 4px solid #AD85BF; }
 .navmap-list-title-frontend { color: #5EC6F3; border-left: 4px solid #5EC6F3; }
@@ -133,12 +119,13 @@ body {
 	background: #F2F5F7;
 	padding: 20px 0;
 }
-
 .rodapePrincipal-contatoForm {
 	margin-top: 20px;
 	text-align: center;
 }
-
+.rodapePrincipal-contatoForm-legend {
+	margin-bottom: 10px;
+}
 .rodapePrincipal-contatoForm label[for=email-contato] {
 	font-weight: bold;
 	font-size: 14px;
@@ -146,22 +133,18 @@ body {
 	margin-bottom: 5px;
 	display: block;
 }
-
 .rodapePrincipal-contatoForm-emailInput {
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	padding: 10px;
 }
-
 .rodapePrincipal-contatoForm-submit {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	background-color: #4DBA7A;
 	color: #FFF;
 	cursor: pointer;
-	
 }
-
 .rodapePrincipal-contatoForm-submit,
 .rodapePrincipal-contatoForm-emailInput {
 	outline: 0;
@@ -175,25 +158,20 @@ body {
 	padding: 25px 0;
 
 }
-
 .videoSobre-video {
 	max-width: 100%;
 }
-
 .videoSobre .container {
 	color: #FFF;
 }
-
 .videoSobre-sobre-title {
 	font-size: 1.2em;
 	font-weight: bolder;
 }
-
 .videoSobre-sobre {
 	font-size: 1.3em;
 	line-height: 2;
 }
-
 .videoSobre-button {
 	border-radius: 8px;
 	background-color: #ec6e5a;
@@ -203,10 +181,6 @@ body {
 	height: 50px;
 	font-size: .8em;
 	outline: none;
-}
-
-.rodapePrincipal-contatoForm-legend {
-	margin-bottom: 10px;
 }
 
 @media(min-width: 769px) {
@@ -254,7 +228,6 @@ body {
 	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
 		margin-left: 0;
 	}
-
 }
 
 @media(min-width: 1000px) {
@@ -281,7 +254,4 @@ body {
 	.videoSobre-sobre {
 		margin-left: 1.5em;
 	}
-
 }
-
-
